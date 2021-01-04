@@ -1051,7 +1051,7 @@ svg {
 
 }
 
-@media (min-width: 56em){
+@media (min-width: 50em){
     .mobile{
         display: none;
     }
