@@ -469,8 +469,17 @@ h1 {
 
 .infobox {
     text-align: center;
-    padding-top: 12rem;
+    /*padding-top: 12rem;*/
 }
+
+@media only screen and (max-width: 37.5em) {
+        .infobox{
+        text-align: left;
+        text-align: -webkit-left;
+        padding-left: 1rem;
+        }
+       
+    }
 
 @media only screen and (max-width: 56.25em) {
     .infobox {
@@ -495,8 +504,14 @@ h1 {
     .infobox__mainheading--h1 {
         letter-spacing: 0;
         font-size: 4rem;
-    }
+    }  
 }
+
+  @media only screen and (max-width: 37.5em) {
+        .infobox__mainheading--h1{
+            font-size: 2rem;
+        }
+    }
 
 .infobox__mainheading--h1:hover {
     color: #ffffff;
@@ -516,6 +531,19 @@ h1 {
         font-size: 3rem;
     }
 }
+
+  @media only screen and (max-width: 37.5em) {
+        .infobox__mainheading--h3 {
+            font-size: 2rem;
+        }
+    }
+
+    
+ /* @media only screen and (max-width: 37.5em) {
+        .infobox__mainheading--h3, .infobox__mainheading--h1 {
+            margin: auto 2rem;
+        }
+    }*/
 
 .infobox__mainheading--h3:hover {
     color: #ffffff;
@@ -547,6 +575,12 @@ h1 {
        }*/
 }
 
+ @media only screen and (max-width: 37.5em) {
+        .infobox__services{
+           margin-left:0;
+        }
+    }
+
 .infobox__services--icon {
     width: 7rem;
     height: 7rem;
@@ -571,6 +605,12 @@ h1 {
     font-size: 1.75;
 }
 
+ @media only screen and (max-width: 37.5em) {
+       .btn-type-1{
+           margin: auto 18rem;
+       }
+    }
+
 #hovereffect:hover {
     -webkit-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -587,6 +627,13 @@ h1 {
     right: 1.5rem;
     z-index: 3000;
 }
+
+
+  @media only screen and (max-width: 37.5em) {
+        .socialicons {
+            top: 75rem;
+        }
+    }
 
 .socialicons__img {
     width: 3.75rem;
@@ -996,4 +1043,16 @@ svg {
     }
 }
 
-/*# sourceMappingURL=main.css.map */
+.mobile__img{
+    width: 7rem;
+     top: 23rem;
+    right: 1rem;
+    position: absolute;
+
+}
+
+@media (min-width: 50em){
+    .mobile{
+        display: none;
+    }
+}
