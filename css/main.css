@@ -722,6 +722,12 @@ h1 {
 .lappy__img {
     margin-top: 14rem;
     margin-left: 4rem;
+
+    @media only screen and (max-width: 37.5em) {
+    .lappy__img {
+        display: none;
+    }
+}
 }
 
 @media only screen and (max-width: 37.5em) {
