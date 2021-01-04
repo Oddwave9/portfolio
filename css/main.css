@@ -494,7 +494,7 @@ h1 {
 @media only screen and (max-width: 56.25em) {
     .infobox__mainheading--h1 {
         letter-spacing: 0;
-        font-size: 2rem;
+        font-size: 4rem;
     }
 }
 
@@ -513,7 +513,7 @@ h1 {
 @media only screen and (max-width: 56.25em) {
     .infobox__mainheading--h3 {
         letter-spacing: 0;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -616,7 +616,7 @@ h1 {
   .showcase {
     height: 100%;
   }
-}
+} 
 
 .navbar {
     padding: 2rem;
@@ -724,11 +724,11 @@ h1 {
     margin-left: 4rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+/*@media only screen and (max-width: 37.5em) {
     .lappy__img {
         display: none;
     }
-}
+} */
 
 .grid {
     display: -ms-grid;
